@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -7,20 +7,20 @@
 }
 
 :root {
-  --bg: #f7f6f3;
-  --surface: #edeae4;
-  --border: #e0dcd5;
-  --border-light: #d0ccc4;
-  --text-primary: #131210;
-  --text-secondary: #635f58;
-  --text-muted: #a09b92;
-  --accent: #0055ff;
-  --accent-dim: rgba(0, 85, 255, 0.07);
-  --code-bg: #111111;
-  --code-border: #222222;
-  --code-text: #8aab8a;
-  --code-label: #444444;
-  --font-display: 'Syne', sans-serif;
+  --bg: #0a0a0a;
+  --surface: #111111;
+  --border: #1e1e1e;
+  --border-light: #2a2a2a;
+  --text-primary: #f0ece4;
+  --text-secondary: #888880;
+  --text-muted: #444440;
+  --accent: #c8f97a;
+  --accent-dim: rgba(200, 249, 122, 0.07);
+  --code-bg: #0f0f0f;
+  --code-border: #1e1e1e;
+  --code-text: #8fa88f;
+  --code-label: #3d3d3d;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'DM Mono', monospace;
 }
@@ -41,7 +41,7 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: #ffffff;
+  color: #0a0a0a;
 }
 
 a {
